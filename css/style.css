@@ -1,3 +1,7 @@
+html {
+  font-family: 'Libre Caslon Text', serif;
+}
+
 nav li {
   height: 30px;
   margin: 10px;
@@ -40,4 +44,15 @@ img:hover {
   background-color: #FFB800;
   border: 4px dotted #C2EABD;
   margin: 10px auto;
+}
+
+.intro {
+  background-image: url("../images/library2.jpeg");
+  color: #FFFFFF;
+  /* background-color: #858585; */
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

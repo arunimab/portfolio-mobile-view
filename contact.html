@@ -19,6 +19,7 @@
 
 		gtag('config', 'G-KVHFHJNWLC');
 	</script>
+	<script src="https://kit.fontawesome.com/0894382c17.js" crossorigin="anonymous"></script>
 	<title>Contact</title>
 </head>
 
@@ -38,23 +39,42 @@
 
 	<main id="main">
 
-    <img src="images/me.jpeg" alt="A picture of myself, Arunima" width="200"/>
-
+    <img class="self-image" src="images/me.jpeg" alt="A picture of myself, Arunima" width="200"/>
+	<div class="about">
 		<p>A little bit about myself: I'm currently a grad student at the University of
-    Michigan studying Human-Computer Interaction. I've always loved reading and losing
-    myself in other people's worlds, stories, and lives. In fact, as a middle
-    schooler, I used to always have a book in the back of my mom's car, and on the 25
-    minute drives to and from school I would be engrossed in my current read - completely
-    ignoring my mom! Unfortunately, over the course of the first three years of undergrad,
-    I found myself not making time to read, and I wasn't able to enjoy one of my
-    favorite hobbies. But when the pandemic hit and I had more time on my hands than
-    I ever could have imagined, I quickly reignited my love and passion for reading,
-    have been discovering and re-discovering some of favorite books.</p>
+		Michigan studying Human-Computer Interaction. I've always loved reading and losing
+		myself in other people's worlds, stories, and lives. In fact, as a middle
+		schooler, I used to always have a book in the back of my mom's car, and on the 25
+		minute drives to and from school I would be engrossed in my current read - completely
+		ignoring my mom! Unfortunately, over the course of the first three years of undergrad,
+		I found myself not making time to read, and I wasn't able to enjoy one of my
+		favorite hobbies. But when the pandemic hit and I had more time on my hands than
+		I ever could have imagined, I quickly reignited my love and passion for reading,
+		have been discovering and re-discovering some of favorite books.</p><br/>
 
-    <p>To share my passion, and ignite a little light of passion in all of you, I give
-    you my book nook! I hope you enjoy looking through my favorite books, my last reads,
-    and my reading tips & tricks. Thank you for joining me on my reading journey, and
-    I am honored to be a part of yours.</p>
+		<p>To share my passion, and ignite a little light of passion in all of you, I give
+		you my book nook! I hope you enjoy looking through my favorite books, my last reads,
+		and my reading tips & tricks. Thank you for joining me on my reading journey, and
+		I am honored to be a part of yours.</p>
+	</div>
+
+	<div class="contact">
+		<h2>I want to hear from you!</h2>
+		<p>Share your latest reads, your thoughts on my reviews, or book recommendations.</p>
+
+		<form action="https://formspree.io/f/mgedzqly" method="POST">
+			<label for="name">Your name:</label><br/>
+			<i class="fa-solid fa-user"></i>
+			<input name="name"></input><br/>
+			<label for="email">Your email:</label><br/>
+			<i class="fa-solid fa-envelope"></i>
+			<input type="email" name="email"></input><br/>
+			<label for="message">Your message:</label><br/>
+			<i class="fa-solid fa-message"></i>
+			<textarea name="message"></textarea><br/>
+			<button type="submit">Send</button>
+		</form>
+	</div>
 
 	</main>
 

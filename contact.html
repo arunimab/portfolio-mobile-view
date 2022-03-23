@@ -10,6 +10,9 @@
 	<link rel="stylesheet" href="css/html5reset.css">
 	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVHFHJNWLC"></script>
 	<script>
@@ -34,10 +37,10 @@
 				<li class="active"><a href = "contact.html">Contact</a></li>
 			</ul>
 		</nav>
-		<h1>Hi! My name is Arunima.</h1>
+		<h1 id="main">Hi! My name is Arunima.</h1>
 	</header>
 
-	<main id="main">
+	<main>
 
     <img class="self-image" src="images/me.jpeg" alt="A picture of myself, Arunima" width="200"/>
 	<div class="about">
@@ -63,15 +66,27 @@
 		<p>Share your latest reads, your thoughts on my reviews, or book recommendations.</p>
 
 		<form action="https://formspree.io/f/mgedzqly" method="POST">
-			<label for="name">Your name:</label><br/>
-			<i class="fa-solid fa-user"></i>
-			<input name="name"></input><br/>
-			<label for="email">Your email:</label><br/>
-			<i class="fa-solid fa-envelope"></i>
-			<input type="email" name="email"></input><br/>
-			<label for="message">Your message:</label><br/>
-			<i class="fa-solid fa-message"></i>
-			<textarea name="message"></textarea><br/>
+			<div class="form-name">
+				<i class="fa-solid fa-user"></i>
+				<label for="name">Your name<br/>
+				<input name="name" id="name"></input></label>
+			</div>
+
+			<div class="form-email">
+				<i class="fa-solid fa-envelope"></i>
+				<label for="email">Your email<br/>
+				<input type="email" name="email" id="email"></input></label>
+			</div>
+			<div class="form-author">
+				<i class="fa-solid fa-book"></i>
+				<label for="author">Your favorite author<br/>
+				<input type="text" name="author" id="author"></input></label>
+			</div>
+			<div class="form-message">
+				<i class="fa-solid fa-message"></i>
+				<label for="message">Your message<br/>
+				<textarea name="message" id="message"></textarea></label>
+			</div>
 			<button type="submit">Send</button>
 		</form>
 	</div>

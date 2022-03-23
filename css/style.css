@@ -2,6 +2,30 @@ html {
   font-family: 'Libre Caslon Text', serif;
 }
 
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+
+p {
+  line-height: 1.15;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+}
+
 nav li {
   height: 30px;
   margin: 10px;
@@ -48,13 +72,14 @@ img:hover {
 
 .intro {
   background-image: url("../images/librarybackground.jpeg");
-  color: #FFFFFF;
-  /* background-color: #858585; */
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 200px;
+}
+
+.intro-text {
+  background-color: #FFFFFF;
+  width: 100%;
+  top: 50%;
+  position: absolute;
 }
 
 .self-image {
@@ -104,6 +129,21 @@ img:hover {
 .tip5 {
   text-align: center;
 }
+
+.contact {
+  margin: 20px;
+  background-color: #C2EABD;
+  text-align: center;
+}
+
+.form-name,
+.form-email,
+.form-author,
+.form-message {
+  padding: 3px;
+  font-size: 0.8em;
+}
+
 @keyframes zoomin {
   from {
     transform:scale(0.1);

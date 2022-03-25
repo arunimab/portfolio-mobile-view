@@ -26,6 +26,11 @@ footer {
   text-align: center;
 }
 
+.skip {
+  position: absolute;
+  left: -200px;
+}
+
 nav li {
   height: 30px;
   margin: 10px;
